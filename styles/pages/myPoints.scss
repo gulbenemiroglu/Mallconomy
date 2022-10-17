@@ -1,0 +1,48 @@
+@import "../variables/colors.scss";
+@import "../variables/font-families.scss";
+@import "../variables/dimensions.scss";
+
+.completed-actions-container{
+    background-color: $bg-light-gray;
+    min-height: calc(100vh - $navbar-height );  
+
+    .txt-action{
+        font-family:$quicksand;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin:0!important;
+        padding:24px 0 16px 0;
+    }
+
+    .completed-actions-card{
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+        padding: 16px 24px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 131px;
+        
+        h4{
+            font-family:$quicksand;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .txt-point{
+            font-family:$montserrat;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: right;
+            color:$txt-green;
+        }
+    }    
+}
+

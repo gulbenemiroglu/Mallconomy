@@ -1,0 +1,16 @@
+@import "../variables/colors.scss";
+@import "../variables/dimensions.scss";
+
+.score-btn{
+   
+    padding: 8px 16px !important;
+    border-radius: 99px !important;
+
+    h6{
+        font-family: $quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,56 @@
+// variables
+@import "./variables/colors.scss";
+@import "./variables/dimensions.scss";
+@import "./variables/font-families.scss";
+
+// pages
+@import "./pages/intro.scss";
+@import "./pages/home.scss";
+@import "./pages/myPoints.scss";
+
+// components
+@import "./components/customCard.scss";
+@import "./components/customNavbar.scss";
+@import "./components/customScore.scss";
+@import "./components/customActionItem.scss";
+@import "./components/customActionHeader.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0 !important;
+  font-family:$quicksand;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,.p{
+  margin: 0;
+  font-family:$quicksand;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+

@@ -1,0 +1,27 @@
+@import "../variables/colors.scss";
+@import "../variables/font-families.scss";
+@import "../variables/dimensions.scss";
+
+.home-container{
+    background-color: $bg-light-gray;
+    min-height: calc(100vh - $navbar-height );  
+
+    .txt-action{
+        font-family:$quicksand;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin:0 8px !important;
+        padding:24px 0 16px 0;
+    }    
+}
+
+.pointsContainer{
+    min-height: calc(100vh - $navbar-height );  
+    background:$bg-yellow;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}

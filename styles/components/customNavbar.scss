@@ -1,0 +1,23 @@
+@import "../variables/colors.scss";
+@import "../variables/font-families.scss";
+
+.navbar-container{
+    background: $bg-yellow;
+    height: 68px;
+    padding: 15px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+
+    .title{
+        font-family:$montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+}

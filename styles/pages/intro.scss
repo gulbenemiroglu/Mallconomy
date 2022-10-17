@@ -1,0 +1,23 @@
+@import "../variables/colors.scss";
+@import "../variables/font-families.scss";
+
+.intro-container{
+    background: $bg-yellow;
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .title{
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    }
+
+    h1,h6{
+        font-family: $montserrat;
+    }
+    
+}

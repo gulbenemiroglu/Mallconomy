@@ -1,0 +1,44 @@
+.card{
+    font-family: $quicksand;
+    border-radius:$card-border-radius ;
+    box-shadow: $card-box-shadow;
+
+   .card-body{
+    padding: 1rem 2rem;
+   }
+    .card-title,.h5{
+        font-family:$quicksand;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+
+    }
+
+    .card-text{
+        font-family:$quicksand;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+
+    }
+   
+    .card-footer{
+        background-color: initial ;
+        border: none;
+        padding: 16px;
+
+        .card-button{
+            border-radius: $btn-border-radius;
+            height: 56px;
+
+            &:focus{
+                box-shadow: none !important;
+            }
+        }
+    }
+}
+

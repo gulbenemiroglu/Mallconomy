@@ -1,0 +1,13 @@
+@import "../variables/colors.scss";
+@import "../variables/font-families.scss";
+
+.card-points{
+    font-family:$montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color:$txt-green;
+    padding:8px ;
+
+}
