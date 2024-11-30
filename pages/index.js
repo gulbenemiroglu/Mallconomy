@@ -14,7 +14,7 @@ const Intro = () => {
         <h6 className="text-center">"Pixel Perfect"</h6>
       </div>
       <Image 
-      src={"/cover.png"}
+      src={"/img/cover.png"}
       layout={"fixed"}
       width={250}
       height={232}

@@ -40,7 +40,7 @@ const Home = (props) => {
         customHeader={
           <Image 
             className='custom-header-image'
-            src={'/congratulations.png'}
+            src={'/img/congratulations.png'}
             width={72}
             height={50.55}
             layout={'fixed'}
@@ -86,14 +86,21 @@ const Home = (props) => {
   )
 }
 
+
+
 export async function getServerSideProps() {
-  const response = await axios.get('https://cdn.mallconomy.com/testcase/actions.json');
+/*  
+  BROKEN LINK
+
+    const response = await axios.get('https://cdn.mallconomy.com/testcase/actions.json');
+ */
+  const response = await axios.get('http://localhost:3000/actions.json'); // Yerel dosya
   const { data } = response;
 
   return {
     props: {
       actionItems: data
     }
-  }
+  };
 }
 export default Home

@@ -1,0 +1,7 @@
+[
+    { "id": 1, "title": "CandyCane", "description": "CandyCane", "point": 10, "image": "/img/candy-cane.png" },
+    { "id": 2, "title": "Snowman", "description": "Snowman", "point": 20, "image": "/img/snowman.png" },
+    { "id": 3, "title": "santa-claus", "description": "santa-claus", "point": 30, "image": "/img/santa-claus.png" },
+    { "id": 4, "title": "Christmas-Sock", "description": "Christmas-Sock", "point": 10, "image": "/img/christmas-sock.png" }
+  ]
+  
