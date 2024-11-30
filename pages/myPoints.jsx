@@ -8,12 +8,12 @@ const MyPoints = () => {
     const router = useRouter();
     return(
         <div className="completed-actions-container">
-            <Container fluid>
-            <h2 className='txt-action'>Completed actions</h2>
-                <Row>
+            <Container >
+            <h2 className='txt-action text-center'>Completed actions</h2>
+                <Row className=" justify-content-center" >
                     {completedItems.map(item => (
                     <Col                      
-                    className="completed-actions-card" 
+                    className="completed-actions-card mt-4 mx-4" 
                     key={item.id}
                     xs={12} 
                     md={6} 
